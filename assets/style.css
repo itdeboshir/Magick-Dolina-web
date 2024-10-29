@@ -1,0 +1,214 @@
+*{
+    font-family: 'Russo One', static;
+}
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #eab941;
+}
+body {
+    background: #046c28;
+}
+a{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+/*
+   HEADER
+ */
+header{
+    background: #9f021b;
+    height: 69px;
+}
+header h1{
+    margin-top: 10px;
+}
+
+header h1 a{
+    color: #eab941;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: middle;
+}
+
+header ul li{
+    float:left;
+    position:relative;
+}
+
+header ul li a{
+    display: block;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #f5f5f5;
+    padding: 20px;
+
+}
+
+header ul li a:hover { /* наведення мишки на обєкти і їх анімація*/
+    background: #7e0215;
+    transition: 0.3s;
+    color: #05af46;
+    border-radius: 15px;
+}
+header ul li ul {
+    position: absolute;
+    top: 69px;
+    right: 100px;
+    width: 120px;
+    display: none;
+    z-index: 111;
+}
+header ul li:hover ul {
+    display: flex;
+}
+header ul li ul li {
+    width: 100%;
+}
+header ul li ul li a {
+    background: #a90121;
+    color: #ffffff;
+}
+/*
+header h2 {
+}
+*/
+/*текст на головній сторінці (title) */
+.col-md-6 h2{
+    color: white;
+}
+p {
+    font-size: 20px;
+    color: #ffffff;
+}
+img{
+    margin-left: 20px;
+    /* opacity: 0.5; прозрачність */
+}
+.sports-image{
+    width: 60px;
+    height: 60px;
+}
+
+.link {
+    color: #fd0036;
+}
+.link:hover {
+    text-decoration: underline;
+}
+
+/* заголовки дописів у новинах*/
+.card-title  {
+    color: #000000;
+}
+.card-text {
+    color: #575757;
+
+}
+
+/*
+.card-body .card-text {
+    margin-right: 20px !important;
+} */
+.launcher-image{
+    width: 900px;
+    height: 600px;
+}
+.news-image{
+    width: 450px;
+    height: 400px;
+}
+.news-image {
+    margin-left:1px;
+}
+.card-text {
+    margin-left: 5px;
+}
+
+.reg_info{
+    color: rgba(4, 166, 253, 0.93);
+    font-size:24px;
+}
+.log_text{
+    color: white;
+    font-size: 28px;
+}
+.auth{
+    font-size: 40px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(167, 21, 0, 0.8);
+    padding: 10px 0;
+    text-align: center;
+    color: white; /* Додано білий колір тексту */
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+footer p {
+    font-size: 15px;
+}
+
+/*cs team design */
+.cs_logo_new{
+    margin-left: 350px;
+    width: 600px;
+    height: 250px;
+}
+.ctt{
+    margin-left: 750px;
+    width: 450px;
+    height: 300px;
+}
+.team-table th, .team-table td {
+    padding: 10px;
+    border: 1px solid #ffffff;
+    color: #ffffff; /* Колір тексту */
+    text-align: center;
+}
+.team-table th {
+    background-color: #646464;
+}
+
+.team-table {
+    margin-bottom: 50px; /* Збільшує відступ внизу таблиці */
+}
+
+.wins{
+    color: #12b24a;
+}
+
+.team-table img{
+    width: 50px;
+    height: 50px;
+}
+
+/* animation news */
+
+/* профіль */
+
+.large-button {
+    width: 300px;
+    height: 400px;
+    /* Додайте будь-які інші стилі за вашим вибором */
+}
+
+.message-content {
+    margin-left: 100px;
+
+}
+
+
+
