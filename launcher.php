@@ -118,7 +118,7 @@
 <!-- Вбудований футер -->
 <footer class="footer">
     <div class="container">
-        <p class="text-light">© 2024 RoyalRush. Всі права захищено.</p>
+        <p class="text-light">contact: MagickDolina@gmail.com ©2024 MD team. All rights reserved.</p>
     </div>
 </footer>
 
