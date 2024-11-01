@@ -94,7 +94,7 @@
 <!-- Вбудований футер -->
 <footer class="footer">
     <div class="container">
-        <p class="text-light">© 2024 RoyalRush. Всі права захищено.</p>
+        <p class="text-light">© 2024 Всі права захищено.</p>
     </div>
 </footer>
 
